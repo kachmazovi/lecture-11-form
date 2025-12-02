@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Register Form</legend>
+        <label for="username">Username:</label>
+        <input placeholder="Username" id="username" type="text" required />
+
+        <label for="first-name">First Name:</label>
+        <input placeholder="First name" id="first-name" type="text" required />
+
+        <label for="last-name">Last Name:</label>
+        <input placeholder="Last name" id="last-name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" required />
+
+        <label for="password">Password</label>
+        <input id="password" type="password" required />
+
+        <div>
+          <label for="male">Male</label>
+          <input required id="male" type="radio" name="gender" checked /><br />
+          <label for="female">Female</label>
+          <input required id="female" type="radio" name="gender" />
+        </div>
+
+        <div>
+          <p>Choose car:</p>
+          <label for="volvo">Volvo</label>
+          <input id="volvo" type="checkbox" /><br />
+          <label for="bmw">BMW</label>
+          <input id="bmw" type="checkbox" /><br />
+          <label for="honda">Honda</label>
+          <input id="honda" type="checkbox" />
+        </div>
+
+        <div>
+          <label for="pet">Choose pet:</label><br />
+          <select id="pet">
+            <option>Dog</option>
+            <option selected>Cat</option>
+            <option>Chicken</option>
+          </select>
+        </div>
+
+        <button>Submit</button>
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

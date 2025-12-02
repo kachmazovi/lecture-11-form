@@ -1,0 +1,11 @@
+form fieldset {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form fieldset input:not([type="checkbox"], [type="radio"]) {
+  width: 50%;
+  padding: 10px;
+}
